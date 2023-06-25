@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <section class="dashboard">
+        <!-- Sidebar Starts -->
+        <div class="sidebar">
+            <div class="side-wrap">
+                <div class="top-menu">
+                    <div class="logo">
+                        <img src="./assets/images/unity.png" alt="">
+                        <img src="./assets/images/Untitled-UI.svg" alt="">
+                    </div>
+                    <ul class="menu-list">
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img class="menu-img" src="./assets/images/home.png" alt="Home" title="Home"> Home
+                            </a>
+                        </li>
+                        <li>
+                            <a class="active" href="javascript:void(0)">
+                                <img class="menu-img" src="./assets/images/activity-active.png" alt="Home" title="Home">
+                                Dashboard
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img class="menu-img" src="./assets/images/layers.png" alt="Home" title="Home"> Projects
+                            </a>
+                        </li>
+                        <li>
+                            <a class="notification-wrap" href="javascript:void(0)">
+                                <div class="notification-div">
+                                    <img class="menu-img" src="./assets/images/to-do-list.png" alt="Home" title="Home">
+                                    Tasks
+                                </div>
+                                <p class="notification">10</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img class="menu-img" src="./assets/images/pie-chart.png" alt="Home" title="Home">
+                                Reporting
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img class="menu-img" src="./assets/images/user.png" alt="Home" title="Home"> Users
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom-menu">
+                    <ul class="menu-list">
+                        <li>
+                            <a class="notification-wrap" href="javascript:void(0)">
+                                <div class="notification-div">
+                                    <img class="menu-img" src="./assets/images/bell.png" alt="Home" title="Home">
+                                    Notifications
+                                </div>
+                                <p class="notification">4</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img class="menu-img" src="./assets/images/customer-support.png" alt="Home"
+                                    title="Home"> Support
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img class="menu-img" src="./assets/images/settings.png" alt="Home" title="Home">
+                                Settings
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="profile-div">
+                        <div class="profile-img-div">
+                            <img src="./assets/images/user1.webp" alt="">
+                            <p>Frankie Sullivan <br> <span>@frankie</span></p>
+                        </div>
+                        <div class="profile-fold">
+                            <img src="./assets/images/unfold.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar Ends -->
+
+        <!-- Dashboard Starts -->
+        <div class="mainContent">
+            <div class="title">
+                <h2>Customers</h2>
+                <div class="actions">
+                    <button class="btn-outline-light">
+                        <img src="./assets/images/cloud-computing.png" alt=""> Import
+                    </button>
+                    <button class="btn-primary">
+                        <img src="./assets/images/plus.png" alt="">
+                        Add customer
+                    </button>
+                </div>
+            </div>
+            <div class="tabs">
+                <ul class="links list-unstyled">
+                    <li><a class="active-nav" href="javascript:void(0)">Overview</a></li>
+                    <li><a href="javascript:void(0)">Table</a></li>
+                    <li><a href="javascript:void(0)">List View</a></li>
+                    <li><a href="javascript:void(0)">Segment</a></li>
+                    <li><a href="javascript:void(0)">Custom</a></li>
+                </ul>
+            </div>
+            <ul class="widget">
+                <li>
+                    <div class="heading">
+                        <p>Total customers</p>
+                        <img src="./assets/images/more.png" alt="">
+                    </div>
+                    <div class="amount">
+                        <h2>2,420</h2>
+                        <label class="label-success"> <img src="./assets/images/up-arrow.png" alt=""> 20%</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="heading">
+                        <p>Members</p>
+                        <img src="./assets/images/more.png" alt="">
+                    </div>
+                    <div class="amount">
+                        <h2>1,210</h2>
+                        <label class="label-success"> <img src="./assets/images/up-arrow.png" alt=""> 15%</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="heading">
+                        <p>Active now</p>
+                        <img src="./assets/images/more.png" alt="">
+                    </div>
+                    <div class="amount">
+                        <h2>316</h2>
+                        <div class="avatar-group">
+                            <div class="avatar">
+                                <img src="./assets/images/user1.webp" alt="">
+                            </div>
+                            <div class="avatar">
+                                <img src="./assets/images/user2.webp" alt="">
+                            </div>
+                            <div class="avatar">
+                                <img src="./assets/images/user3.webp" alt="">
+                            </div>
+                            <div class="avatar">
+                                <img src="./assets/images/user4.webp" alt="">
+                            </div>
+                            <div class="avatar">
+                                <img src="./assets/images/user5.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="filter-div">
+                <div class="filters">
+                    <p>All time <img src="./assets/images/close.png" alt=""></p>
+                    <p>US, AU, +4 <img src="./assets/images/close.png" alt=""></p>
+                    <div class="selector">
+                        <select>
+                            <option> <img src="./assets/images/sort.png" alt="">More filters</option>
+                            <option> <img src="./assets/images/sort.png" alt="">All time</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="search">
+                    <input type="search" placeholder="Search">
+                    <img src="./assets/images/loupe.png" alt="">
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input" type="checkbox" name="" id="company_0">
+                                    <label class="custom-control-label" for="company_0"></label>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="cmpny">Company <img src="./assets/images/top.png" alt=""></div>
+                            </th>
+                            <th>Status</th>
+                            <th>About</th>
+                            <th>Users</th>
+                            <th>License use</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input" type="checkbox" name="" id="company_1">
+                                    <label class="custom-control-label" for="company_1"></label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="company-div">
+                                    <div class="company-img">
+                                        <img src="./assets/images/company.webp" alt="">
+                                    </div>
+                                    <div class="company-content">
+                                        <h6>Catalog</h6>
+                                        <p>catalogapp.io</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><label class="label-success">Customer</label></td>
+                            <td>
+                                <div class="about-content">
+                                    <p>Content curating app</p><span>Brings all your news into one place</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="avatar-group">
+                                    <div class="avatar">
+                                        <img src="./assets/images/user1.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user2.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user3.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user4.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user5.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <p>+5</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="skills-line first"></div>
+                            </td>
+                            <td><a href="javascript:void(0)"><img class="delete-icon" src="./assets/images/delete.png"
+                                        alt=""></a></td>
+                            <td><a href="javascript:void(0)"><img class="edit-icon" src="./assets/images/edit.png"
+                                        alt=""></a></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input" type="checkbox" name="" id="company_2">
+                                    <label class="custom-control-label" for="company_2"></label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="company-div">
+                                    <div class="company-img">
+                                        <img src="./assets/images/company.webp" alt="">
+                                    </div>
+                                    <div class="company-content">
+                                        <h6>Circooles</h6>
+                                        <p>getcircooles.com</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><label class="notification">Churned</label></td>
+                            <td>
+                                <div class="about-content">
+                                    <p>Design software</p><span>Super lightweight design app</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="avatar-group">
+                                    <div class="avatar">
+                                        <img src="./assets/images/user1.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user2.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user3.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user4.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user5.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <p>+8</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="skills-line second"></div>
+                            </td>
+                            <td><a href="javascript:void(0)"><img class="delete-icon" src="./assets/images/delete.png"
+                                        alt=""></a></td>
+                            <td><a href="javascript:void(0)"><img class="edit-icon" src="./assets/images/edit.png"
+                                        alt=""></a></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input" type="checkbox" name="" id="company_3">
+                                    <label class="custom-control-label" for="company_3"></label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="company-div">
+                                    <div class="company-img">
+                                        <img src="./assets/images/company.webp" alt="">
+                                    </div>
+                                    <div class="company-content">
+                                        <h6>Command+R</h6>
+                                        <p>cmdr.ai</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><label class="label-success">Customer</label></td>
+                            <td>
+                                <div class="about-content">
+                                    <p>Data prediction</p><span>AI and machine learning data</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="avatar-group">
+                                    <div class="avatar">
+                                        <img src="./assets/images/user1.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user2.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user3.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user4.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user5.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <p>+2</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="skills-line three"></div>
+                            </td>
+                            <td><a href="javascript:void(0)"><img class="delete-icon" src="./assets/images/delete.png"
+                                        alt=""></a></td>
+                            <td><a href="javascript:void(0)"><img class="edit-icon" src="./assets/images/edit.png"
+                                        alt=""></a></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input" type="checkbox" name="" id="company_4">
+                                    <label class="custom-control-label" for="company_4"></label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="company-div">
+                                    <div class="company-img">
+                                        <img src="./assets/images/company.webp" alt="">
+                                    </div>
+                                    <div class="company-content">
+                                        <h6>Hourglass</h6>
+                                        <p>hourglass.app</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><label class="label-success">Customer</label></td>
+                            <td>
+                                <div class="about-content">
+                                    <p>Productivity app</p><span>Time management and productivity</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="avatar-group">
+                                    <div class="avatar">
+                                        <img src="./assets/images/user1.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user2.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user3.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user4.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user5.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <p>+5</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="skills-line four"></div>
+                            </td>
+                            <td><a href="javascript:void(0)"><img class="delete-icon" src="./assets/images/delete.png"
+                                        alt=""></a></td>
+                            <td><a href="javascript:void(0)"><img class="edit-icon" src="./assets/images/edit.png"
+                                        alt=""></a></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input" type="checkbox" name="" id="company_5">
+                                    <label class="custom-control-label" for="company_5"></label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="company-div">
+                                    <div class="company-img">
+                                        <img src="./assets/images/company.webp" alt="">
+                                    </div>
+                                    <div class="company-content">
+                                        <h6>Layers</h6>
+                                        <p>getlayers.io</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><label class="notification">Churned</label></td>
+                            <td>
+                                <div class="about-content">
+                                    <p>Web app integrations</p><span>Connect web apps seamlessly</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="avatar-group">
+                                    <div class="avatar">
+                                        <img src="./assets/images/user1.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user2.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user3.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user4.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user5.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <p>+1</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="skills-line five"></div>
+                            </td>
+                            <td><a href="javascript:void(0)"><img class="delete-icon" src="./assets/images/delete.png"
+                                        alt=""></a></td>
+                            <td><a href="javascript:void(0)"><img class="edit-icon" src="./assets/images/edit.png"
+                                        alt=""></a></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input" type="checkbox" name="" id="company_6">
+                                    <label class="custom-control-label" for="company_6"></label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="company-div">
+                                    <div class="company-img">
+                                        <img src="./assets/images/company.webp" alt="">
+                                    </div>
+                                    <div class="company-content">
+                                        <h6>Quotient</h6>
+                                        <p>quotient.co</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><label class="label-success">Customer</label></td>
+                            <td>
+                                <div class="about-content">
+                                    <p>Sales CRM</p><span>Web-based sales doc management</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="avatar-group">
+                                    <div class="avatar">
+                                        <img src="./assets/images/user1.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user2.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user3.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user4.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user5.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <p>+6</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="skills-line six"></div>
+                            </td>
+                            <td><a href="javascript:void(0)"><img class="delete-icon" src="./assets/images/delete.png"
+                                        alt=""></a></td>
+                            <td><a href="javascript:void(0)"><img class="edit-icon" src="./assets/images/edit.png"
+                                        alt=""></a></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input" type="checkbox" name="" id="company_7">
+                                    <label class="custom-control-label" for="company_7"></label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="company-div">
+                                    <div class="company-img">
+                                        <img src="./assets/images/company.webp" alt="">
+                                    </div>
+                                    <div class="company-content">
+                                        <h6>Sisyphus</h6>
+                                        <p>sisyphus.com</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><label class="label-success">Customer</label></td>
+                            <td>
+                                <div class="about-content">
+                                    <p>Automation and workflow</p><span>Time tracking, invoices and expenses</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="avatar-group">
+                                    <div class="avatar">
+                                        <img src="./assets/images/user1.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user2.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user3.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user4.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="./assets/images/user5.webp" alt="">
+                                    </div>
+                                    <div class="avatar">
+                                        <p>+4</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="skills-line seven"></div>
+                            </td>
+                            <td><a href="javascript:void(0)"><img class="delete-icon" src="./assets/images/delete.png"
+                                        alt=""></a></td>
+                            <td><a href="javascript:void(0)"><img class="edit-icon" src="./assets/images/edit.png"
+                                        alt=""></a></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">
+                                <button class="btn-outline-light">Previous</button>
+                            </td>
+                            <td align="center" colspan="1">
+                                <p>Page 1 of 10</p>
+                            </td>
+                            <td align="right" colspan="4">
+                                <button class="btn-outline-light">Next</button>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+        <!-- Dashboard Starts -->
+    </section>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
